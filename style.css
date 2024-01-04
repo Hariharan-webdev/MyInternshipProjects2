@@ -1,0 +1,76 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* -------------- Registration form styling ------------ */
+
+body {
+    background: url("./bg-4.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.24);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+input:hover {
+    border: none;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.40);
+}
+
+.error-message {
+    color: #fff;
+    margin-bottom: 16px;
+}
